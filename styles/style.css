@@ -29,6 +29,8 @@
 .ytv__left {
     display: flex;
     column-gap: 1em;
+   align-items: center;
+
 }
 
 .ytv__right {
@@ -36,6 +38,8 @@
    display: flex;
    justify-content: end;
    gap: 0.5em;
+
+   align-items: center;
 }
 .profile {
     display: flex;
@@ -44,10 +48,14 @@
 .profile__text {
     display: flex;
    flex-direction: column;
+   flex-wrap: nowrap;
+   flex-shrink: 1;
 }
 .icon {
 
 }
 .btn--flex {
-    
+   display: flex;
+    flex-shrink: 1;
+   flex-wrap: nowrap;
 }
